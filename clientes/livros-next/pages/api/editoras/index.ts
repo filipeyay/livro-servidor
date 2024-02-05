@@ -3,6 +3,7 @@ import ControleEditora from "@/classes/controle/ControleEditora";
 
 const controleEditora = new ControleEditora();
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default async function (req: NextApiRequest, res: NextApiResponse) {
     try {
         if (req.method === 'GET') {

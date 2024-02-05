@@ -49,15 +49,14 @@ const LivroDados: React.FC = () => {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Loja Next</title>
+                <title>Livros Next</title>
             </Head>
 
             <Menu />
 
             <main className={styles.main}>
-                <h1 className={styles.title}>Incluir Novo Livro</h1>
-
                 <form onSubmit={incluirLivro}>
+                    <h2>Novo Livro</h2><br/>
                     <div className='mb-3'>
                         <label htmlFor="titulo" className='form-label'>
                             Título

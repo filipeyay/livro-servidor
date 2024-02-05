@@ -3,6 +3,7 @@ import ControleLivros from "@/classes/controle/ControleLivros";
 
 const controleLivro = new ControleLivros();
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default async function (req: NextApiRequest, res: NextApiResponse) {
     try {
         if (req.method === 'GET') {

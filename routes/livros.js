@@ -8,7 +8,7 @@ router.get('/', async (req, res) => {
         const livros = await livroDao.obterLivros();
         res.json(livros);
     } catch (error) {
-        res.status(500).json({message: 'Erro ao obter os livros'});
+        res.status(500).json({message: 'Erro ao obter livros'});
     }
 });
 

@@ -7,7 +7,7 @@ const Home: React.FC = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Loja Next</title>
+        <title>Livros Next</title>
       </Head>
 
       <Menu />

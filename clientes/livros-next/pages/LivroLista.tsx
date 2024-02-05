@@ -37,13 +37,12 @@ const LivroLista = () => {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Loja Next</title>
+                <title>Livros Next</title>
             </Head>
 
             <Menu />
 
             <main className={styles.main}>
-                <h1 className={styles.title}>Lista de Livros</h1>
 
                 <table className="table">
                     <thead>

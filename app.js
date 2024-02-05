@@ -5,7 +5,6 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var cors = require('cors');
 
-//incluir rotas de livros
 var livroRouter = require('./routes/livros');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -27,7 +26,7 @@ app.use('/users', usersRouter);
 app.use('/livros', livroRouter);
 
 // app.listen(3030, () => {
-//   console.log('Servidor Express está rodando na porta 3030');
+//   console.log('Servidor rodando na porta 3030');
 // });
 
 // catch 404 and forward to error handler
